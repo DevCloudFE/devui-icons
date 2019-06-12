@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>icon font test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="icomoon/devui-icon.css">
+    <style>
+        body {
+            width:80%;
+            margin:0 auto;
+        }
+        .icon {
+            font-size:16px;
+        }
+        .icon-list {
+            overflow: hidden;
+            padding-left:0;
+        }
+        .icon-list li {list-style: none;}
+        .icon-list li{
+            position: relative;
+            display: block;
+            float:left;
+            height:87px;
+            line-height: 87px;
+            text-align: center;
+            margin:0 auto;
+            width:87px;
+            border-top:1px solid #f1f1f1;
+            border-bottom: 1px solid #f1f1f1;
+            border-left:1px solid #f1f1f1;
+        }
+
+        .icon-list li.code-action {
+            height:112px;
+            line-height: 112px;
+            width:112px;
+        }
+        .icon-list li:last-child {
+            border-right: 1px solid #f1f1f1;
+        }
+
+        .help-desk {
+            margin: 15px 0 5px;
+            line-height: 20px;
+            color:#999;
+        }
+
+        .icon-box {
+            overflow: hidden;
+        }
+
+        .icon-desc {
+            position: relative;
+            font-size:12px;
+            color:#aaa;
+            bottom: 28px;
+        }
+        .code-action .icon-desc {
+            bottom: 44px;
+        }
+        .icon_lists li {
+            float: left;
+            width: 120px;
+            height: 170px;
+            text-align: center;
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>DevUI图标</h2>
+    <h3>操作图标</h3>
+    <div class="help-desk">面性图标，单线程2px</div>
+    <div style="display:none;">
+    
+                {name:'add-bug', label: ''},
+        
+                {name:'add-directory', label: ''},
+        
+                {name:'add-file', label: ''},
+        
+                {name:'add-fold', label: ''},
+        
+                {name:'add-interface-use-case', label: ''},
+        
+                {name:'add-label', label: ''},
+        
+                {name:'add-manual-use-case', label: ''},
+        
+                {name:'add-member', label: ''},
+        
+                {name:'add-sub-module', label: ''},
+        
+                {name:'add-sub-node', label: ''},
+        
+                {name:'add', label: ''},
+        
+                {name:'all-project', label: ''},
+        
+                {name:'arrow-down', label: ''},
+        
+                {name:'arrow-left', label: ''},
+        
+                {name:'arrow-right', label: ''},
+        
+                {name:'arrow-up', label: ''},
+        
+                {name:'base-info', label: ''},
+        
+                {name:'branch-compare', label: ''},
+        
+                {name:'branch-merge', label: ''},
+        
+                {name:'bug', label: ''},
+        
+                {name:'build-with-tool', label: ''},
+        
+                {name:'bulk-edit', label: ''},
+        
+                {name:'buy', label: ''},
+        
+                {name:'calendar', label: ''},
+        
+                {name:'cancel-forbidden', label: ''},
+        
+                {name:'cherry-pick', label: ''},
+        
+                {name:'chevron-down', label: ''},
+        
+                {name:'chevron-right', label: ''},
+        
+                {name:'chevron-up', label: ''},
+        
+                {name:'close-folder', label: ''},
+        
+                {name:'close', label: ''},
+        
+                {name:'code', label: ''},
+        
+                {name:'collapse-info', label: ''},
+        
+                {name:'collapse', label: ''},
+        
+                {name:'connect-code', label: ''},
+        
+                {name:'connect', label: ''},
+        
+                {name:'connection-relate', label: ''},
+        
+                {name:'copy-last-result', label: ''},
+        
+                {name:'copy-to-new', label: ''},
+        
+                {name:'copy', label: ''},
+        
+                {name:'create-sub-item', label: ''},
+        
+                {name:'create-test-user-case', label: ''},
+        
+                {name:'customize-download', label: ''},
+        
+                {name:'cut', label: ''},
+        
+                {name:'delete', label: ''},
+        
+                {name:'depend', label: ''},
+        
+                {name:'directory', label: ''},
+        
+                {name:'down-config', label: ''},
+        
+                {name:'drag', label: ''},
+        
+                {name:'edit', label: ''},
+        
+                {name:'exit-loop', label: ''},
+        
+                {name:'expand-info', label: ''},
+        
+                {name:'expand', label: ''},
+        
+                {name:'export', label: ''},
+        
+                {name:'filter', label: ''},
+        
+                {name:'fold-bar', label: ''},
+        
+                {name:'fold', label: ''},
+        
+                {name:'forbid', label: ''},
+        
+                {name:'fork-code', label: ''},
+        
+                {name:'frame-contract', label: ''},
+        
+                {name:'frame-expand', label: ''},
+        
+                {name:'frok', label: ''},
+        
+                {name:'gps', label: ''},
+        
+                {name:'head-notice', label: ''},
+        
+                {name:'health', label: ''},
+        
+                {name:'help', label: ''},
+        
+                {name:'import', label: ''},
+        
+                {name:'insert-image', label: ''},
+        
+                {name:'json', label: ''},
+        
+                {name:'layout', label: ''},
+        
+                {name:'list-view', label: ''},
+        
+                {name:'loading', label: ''},
+        
+                {name:'loop', label: ''},
+        
+                {name:'maxmize', label: ''},
+        
+                {name:'minimize', label: ''},
+        
+                {name:'minus', label: ''},
+        
+                {name:'mobile', label: ''},
+        
+                {name:'modify-trace', label: ''},
+        
+                {name:'more-func', label: ''},
+        
+                {name:'more-operate', label: ''},
+        
+                {name:'new-bug', label: ''},
+        
+                {name:'op-add', label: ''},
+        
+                {name:'op-delete', label: ''},
+        
+                {name:'op-download', label: ''},
+        
+                {name:'op-exit', label: ''},
+        
+                {name:'op-list', label: ''},
+        
+                {name:'op-member', label: ''},
+        
+                {name:'op-mine', label: ''},
+        
+                {name:'op-mobile', label: ''},
+        
+                {name:'op-upload', label: ''},
+        
+                {name:'open-folder', label: ''},
+        
+                {name:'plan', label: ''},
+        
+                {name:'preview-forbidden', label: ''},
+        
+                {name:'preview', label: ''},
+        
+                {name:'publish', label: ''},
+        
+                {name:'qrcode', label: ''},
+        
+                {name:'refresh', label: ''},
+        
+                {name:'release-set', label: ''},
+        
+                {name:'rename', label: ''},
+        
+                {name:'rollback', label: ''},
+        
+                {name:'run-with-parameter', label: ''},
+        
+                {name:'run', label: ''},
+        
+                {name:'save', label: ''},
+        
+                {name:'scan-qrcode', label: ''},
+        
+                {name:'search', label: ''},
+        
+                {name:'set-keyword', label: ''},
+        
+                {name:'set-manage-icon', label: ''},
+        
+                {name:'set-normal-icon', label: ''},
+        
+                {name:'set-role', label: ''},
+        
+                {name:'setup', label: ''},
+        
+                {name:'share', label: ''},
+        
+                {name:'spread-info', label: ''},
+        
+                {name:'star-o', label: ''},
+        
+                {name:'star', label: ''},
+        
+                {name:'start-use', label: ''},
+        
+                {name:'stop', label: ''},
+        
+                {name:'submit-earlier', label: ''},
+        
+                {name:'submit-update', label: ''},
+        
+                {name:'suspend', label: ''},
+        
+                {name:'switch', label: ''},
+        
+                {name:'synchronize', label: ''},
+        
+                {name:'unfold-bar', label: ''},
+        
+                {name:'unload', label: ''},
+        
+                {name:'upload', label: ''},
+        
+                {name:'veIcon-briefcase', label: ''},
+        
+                {name:'view', label: ''},
+        
+                {name:'zoom-in', label: ''},
+        
+                {name:'zoom-out', label: ''},
+        
+    </div>
+    <div class="icon-box">
+        <ul class="icon-list">
+            
+                <li ngxClipboard [cbContent]="'icon-add-bug'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-add-bug"></i>
+                    <div class="icon-desc">
+                        add-bug
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-add-directory'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-add-directory"></i>
+                    <div class="icon-desc">
+                        add-directory
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-add-file'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-add-file"></i>
+                    <div class="icon-desc">
+                        add-file
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-add-fold'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-add-fold"></i>
+                    <div class="icon-desc">
+                        add-fold
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-add-interface-use-case'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-add-interface-use-case"></i>
+                    <div class="icon-desc">
+                        add-interface-use-case
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-add-label'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-add-label"></i>
+                    <div class="icon-desc">
+                        add-label
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-add-manual-use-case'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-add-manual-use-case"></i>
+                    <div class="icon-desc">
+                        add-manual-use-case
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-add-member'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-add-member"></i>
+                    <div class="icon-desc">
+                        add-member
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-add-sub-module'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-add-sub-module"></i>
+                    <div class="icon-desc">
+                        add-sub-module
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-add-sub-node'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-add-sub-node"></i>
+                    <div class="icon-desc">
+                        add-sub-node
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-add'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-add"></i>
+                    <div class="icon-desc">
+                        add
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-all-project'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-all-project"></i>
+                    <div class="icon-desc">
+                        all-project
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-arrow-down'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-arrow-down"></i>
+                    <div class="icon-desc">
+                        arrow-down
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-arrow-left'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-arrow-left"></i>
+                    <div class="icon-desc">
+                        arrow-left
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-arrow-right'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-arrow-right"></i>
+                    <div class="icon-desc">
+                        arrow-right
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-arrow-up'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-arrow-up"></i>
+                    <div class="icon-desc">
+                        arrow-up
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-base-info'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-base-info"></i>
+                    <div class="icon-desc">
+                        base-info
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-branch-compare'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-branch-compare"></i>
+                    <div class="icon-desc">
+                        branch-compare
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-branch-merge'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-branch-merge"></i>
+                    <div class="icon-desc">
+                        branch-merge
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-bug'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-bug"></i>
+                    <div class="icon-desc">
+                        bug
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-build-with-tool'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-build-with-tool"></i>
+                    <div class="icon-desc">
+                        build-with-tool
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-bulk-edit'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-bulk-edit"></i>
+                    <div class="icon-desc">
+                        bulk-edit
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-buy'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-buy"></i>
+                    <div class="icon-desc">
+                        buy
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-calendar'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-calendar"></i>
+                    <div class="icon-desc">
+                        calendar
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-cancel-forbidden'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-cancel-forbidden"></i>
+                    <div class="icon-desc">
+                        cancel-forbidden
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-cherry-pick'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-cherry-pick"></i>
+                    <div class="icon-desc">
+                        cherry-pick
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-chevron-down'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-chevron-down"></i>
+                    <div class="icon-desc">
+                        chevron-down
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-chevron-right'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-chevron-right"></i>
+                    <div class="icon-desc">
+                        chevron-right
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-chevron-up'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-chevron-up"></i>
+                    <div class="icon-desc">
+                        chevron-up
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-close-folder'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-close-folder"></i>
+                    <div class="icon-desc">
+                        close-folder
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-close'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-close"></i>
+                    <div class="icon-desc">
+                        close
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-code'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-code"></i>
+                    <div class="icon-desc">
+                        code
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-collapse-info'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-collapse-info"></i>
+                    <div class="icon-desc">
+                        collapse-info
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-collapse'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-collapse"></i>
+                    <div class="icon-desc">
+                        collapse
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-connect-code'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-connect-code"></i>
+                    <div class="icon-desc">
+                        connect-code
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-connect'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-connect"></i>
+                    <div class="icon-desc">
+                        connect
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-connection-relate'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-connection-relate"></i>
+                    <div class="icon-desc">
+                        connection-relate
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-copy-last-result'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-copy-last-result"></i>
+                    <div class="icon-desc">
+                        copy-last-result
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-copy-to-new'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-copy-to-new"></i>
+                    <div class="icon-desc">
+                        copy-to-new
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-copy'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-copy"></i>
+                    <div class="icon-desc">
+                        copy
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-create-sub-item'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-create-sub-item"></i>
+                    <div class="icon-desc">
+                        create-sub-item
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-create-test-user-case'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-create-test-user-case"></i>
+                    <div class="icon-desc">
+                        create-test-user-case
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-customize-download'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-customize-download"></i>
+                    <div class="icon-desc">
+                        customize-download
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-cut'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-cut"></i>
+                    <div class="icon-desc">
+                        cut
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-delete'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-delete"></i>
+                    <div class="icon-desc">
+                        delete
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-depend'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-depend"></i>
+                    <div class="icon-desc">
+                        depend
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-directory'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-directory"></i>
+                    <div class="icon-desc">
+                        directory
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-down-config'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-down-config"></i>
+                    <div class="icon-desc">
+                        down-config
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-drag'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-drag"></i>
+                    <div class="icon-desc">
+                        drag
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-edit'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-edit"></i>
+                    <div class="icon-desc">
+                        edit
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-exit-loop'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-exit-loop"></i>
+                    <div class="icon-desc">
+                        exit-loop
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-expand-info'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-expand-info"></i>
+                    <div class="icon-desc">
+                        expand-info
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-expand'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-expand"></i>
+                    <div class="icon-desc">
+                        expand
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-export'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-export"></i>
+                    <div class="icon-desc">
+                        export
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-filter'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-filter"></i>
+                    <div class="icon-desc">
+                        filter
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-fold-bar'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-fold-bar"></i>
+                    <div class="icon-desc">
+                        fold-bar
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-fold'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-fold"></i>
+                    <div class="icon-desc">
+                        fold
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-forbid'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-forbid"></i>
+                    <div class="icon-desc">
+                        forbid
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-fork-code'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-fork-code"></i>
+                    <div class="icon-desc">
+                        fork-code
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-frame-contract'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-frame-contract"></i>
+                    <div class="icon-desc">
+                        frame-contract
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-frame-expand'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-frame-expand"></i>
+                    <div class="icon-desc">
+                        frame-expand
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-frok'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-frok"></i>
+                    <div class="icon-desc">
+                        frok
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-gps'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-gps"></i>
+                    <div class="icon-desc">
+                        gps
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-head-notice'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-head-notice"></i>
+                    <div class="icon-desc">
+                        head-notice
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-health'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-health"></i>
+                    <div class="icon-desc">
+                        health
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-help'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-help"></i>
+                    <div class="icon-desc">
+                        help
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-import'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-import"></i>
+                    <div class="icon-desc">
+                        import
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-insert-image'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-insert-image"></i>
+                    <div class="icon-desc">
+                        insert-image
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-json'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-json"></i>
+                    <div class="icon-desc">
+                        json
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-layout'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-layout"></i>
+                    <div class="icon-desc">
+                        layout
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-list-view'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-list-view"></i>
+                    <div class="icon-desc">
+                        list-view
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-loading'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-loading"></i>
+                    <div class="icon-desc">
+                        loading
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-loop'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-loop"></i>
+                    <div class="icon-desc">
+                        loop
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-maxmize'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-maxmize"></i>
+                    <div class="icon-desc">
+                        maxmize
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-minimize'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-minimize"></i>
+                    <div class="icon-desc">
+                        minimize
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-minus'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-minus"></i>
+                    <div class="icon-desc">
+                        minus
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-mobile'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-mobile"></i>
+                    <div class="icon-desc">
+                        mobile
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-modify-trace'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-modify-trace"></i>
+                    <div class="icon-desc">
+                        modify-trace
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-more-func'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-more-func"></i>
+                    <div class="icon-desc">
+                        more-func
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-more-operate'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-more-operate"></i>
+                    <div class="icon-desc">
+                        more-operate
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-new-bug'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-new-bug"></i>
+                    <div class="icon-desc">
+                        new-bug
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-op-add'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-op-add"></i>
+                    <div class="icon-desc">
+                        op-add
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-op-delete'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-op-delete"></i>
+                    <div class="icon-desc">
+                        op-delete
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-op-download'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-op-download"></i>
+                    <div class="icon-desc">
+                        op-download
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-op-exit'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-op-exit"></i>
+                    <div class="icon-desc">
+                        op-exit
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-op-list'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-op-list"></i>
+                    <div class="icon-desc">
+                        op-list
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-op-member'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-op-member"></i>
+                    <div class="icon-desc">
+                        op-member
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-op-mine'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-op-mine"></i>
+                    <div class="icon-desc">
+                        op-mine
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-op-mobile'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-op-mobile"></i>
+                    <div class="icon-desc">
+                        op-mobile
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-op-upload'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-op-upload"></i>
+                    <div class="icon-desc">
+                        op-upload
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-open-folder'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-open-folder"></i>
+                    <div class="icon-desc">
+                        open-folder
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-plan'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-plan"></i>
+                    <div class="icon-desc">
+                        plan
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-preview-forbidden'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-preview-forbidden"></i>
+                    <div class="icon-desc">
+                        preview-forbidden
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-preview'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-preview"></i>
+                    <div class="icon-desc">
+                        preview
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-publish'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-publish"></i>
+                    <div class="icon-desc">
+                        publish
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-qrcode'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-qrcode"></i>
+                    <div class="icon-desc">
+                        qrcode
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-refresh'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-refresh"></i>
+                    <div class="icon-desc">
+                        refresh
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-release-set'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-release-set"></i>
+                    <div class="icon-desc">
+                        release-set
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-rename'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-rename"></i>
+                    <div class="icon-desc">
+                        rename
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-rollback'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-rollback"></i>
+                    <div class="icon-desc">
+                        rollback
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-run-with-parameter'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-run-with-parameter"></i>
+                    <div class="icon-desc">
+                        run-with-parameter
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-run'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-run"></i>
+                    <div class="icon-desc">
+                        run
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-save'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-save"></i>
+                    <div class="icon-desc">
+                        save
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-scan-qrcode'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-scan-qrcode"></i>
+                    <div class="icon-desc">
+                        scan-qrcode
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-search'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-search"></i>
+                    <div class="icon-desc">
+                        search
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-set-keyword'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-set-keyword"></i>
+                    <div class="icon-desc">
+                        set-keyword
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-set-manage-icon'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-set-manage-icon"></i>
+                    <div class="icon-desc">
+                        set-manage-icon
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-set-normal-icon'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-set-normal-icon"></i>
+                    <div class="icon-desc">
+                        set-normal-icon
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-set-role'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-set-role"></i>
+                    <div class="icon-desc">
+                        set-role
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-setup'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-setup"></i>
+                    <div class="icon-desc">
+                        setup
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-share'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-share"></i>
+                    <div class="icon-desc">
+                        share
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-spread-info'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-spread-info"></i>
+                    <div class="icon-desc">
+                        spread-info
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-star-o'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-star-o"></i>
+                    <div class="icon-desc">
+                        star-o
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-star'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-star"></i>
+                    <div class="icon-desc">
+                        star
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-start-use'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-start-use"></i>
+                    <div class="icon-desc">
+                        start-use
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-stop'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-stop"></i>
+                    <div class="icon-desc">
+                        stop
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-submit-earlier'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-submit-earlier"></i>
+                    <div class="icon-desc">
+                        submit-earlier
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-submit-update'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-submit-update"></i>
+                    <div class="icon-desc">
+                        submit-update
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-suspend'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-suspend"></i>
+                    <div class="icon-desc">
+                        suspend
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-switch'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-switch"></i>
+                    <div class="icon-desc">
+                        switch
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-synchronize'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-synchronize"></i>
+                    <div class="icon-desc">
+                        synchronize
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-unfold-bar'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-unfold-bar"></i>
+                    <div class="icon-desc">
+                        unfold-bar
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-unload'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-unload"></i>
+                    <div class="icon-desc">
+                        unload
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-upload'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-upload"></i>
+                    <div class="icon-desc">
+                        upload
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-veIcon-briefcase'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-veIcon-briefcase"></i>
+                    <div class="icon-desc">
+                        veIcon-briefcase
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-view'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-view"></i>
+                    <div class="icon-desc">
+                        view
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-zoom-in'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-zoom-in"></i>
+                    <div class="icon-desc">
+                        zoom-in
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-zoom-out'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-zoom-out"></i>
+                    <div class="icon-desc">
+                        zoom-out
+                    </div>
+                </li>
+                
+        </ul>
+        
+    </div>
+    <h3>状态图标</h3>
+    <div class="help-desk">1px图标</div>
+    <div class="icon-box">
+        <ul class="icon-list">
+            <li class="icon icon-priority" style="color: #E8F0FD;">
+                <div class="icon-desc">低</div>
+            </li>
+            <li class="icon icon-priority" style="color: #FECC55;">
+                <div class="icon-desc">中</div>
+            </li>
+            <li class="icon icon-priority" style="color: #3DCCA6;">
+                <div class="icon-desc">一版</div>
+            </li>
+            <li class="icon icon-priority" style="color: #F95F5B;">
+                <div class="icon-desc">高</div>
+            </li>
+            <li class="icon icon-dot-status" style="color: #3DCCA6;">
+                <div class="icon-desc">成功</div>
+            </li>
+            <li class="icon icon-dot-status" style="color: #F95F5B;">
+                <div class="icon-desc">错误</div>
+            </li>
+            <li class="icon icon-dot-status" style="color: #D3E2FC;">
+                <div class="icon-desc">开始</div>
+            </li>
+            <li class="icon icon-dot-status" style="color: #5170FF;">
+                <div class="icon-desc">执行</div>
+            </li>
+            <li class="icon icon-right" style="color: #3DCCA6;">
+                <div class="icon-desc">正确</div>
+            </li>
+            <li class="icon icon-error" style="color: #F95F5B;">
+                <div class="icon-desc">错误</div>
+            </li>
+            <li class="icon icon-right-o" style="color: #3DCCA6;">
+                <div class="icon-desc">正确</div>
+            </li>
+            <li class="icon icon-error-o" style="color: #F95F5B;">
+                <div class="icon-desc">错误</div>
+            </li>
+            <li class="icon icon-info" style="color: #5170FF;">
+                <div class="icon-desc">信息</div>
+            </li>
+            <li class="icon icon-info-o" style="color: #5170FF;">
+                <div class="icon-desc">信息</div>
+            </li>
+            <li class="icon icon-warning" style="color: #FECC55;">
+                <div class="icon-desc">警告</div>
+            </li>
+            <li class="icon icon-warning-o" style="color: #FECC55;">
+                <div class="icon-desc">警告</div>
+            </li>
+            <li class="icon icon-running" style="color: #5170FF;">
+                <div class="icon-desc">执行中</div>
+            </li>
+            <li class="icon icon-running-o" style="color: #5170FF;">
+                <div class="icon-desc">执行中</div>
+            </li>
+            <li class="icon icon-forbidding" style="color: #D3E2FC;">
+                <div class="icon-desc">停止</div>
+            </li>
+            <li class="icon icon-forbidding-o" style="color: #D3E2FC;">
+                <div class="icon-desc">停止</div>
+            </li>
+            <li class="icon icon-ban" style="color: #F95F5B;">
+                <div class="icon-desc">禁止</div>
+            </li>
+            <li class="icon icon-unsolved" style="color: #F95F5B;">
+              <div class="icon-desc">禁止</div>
+            </li>
+            <li class="icon icon-solved" style="color: #3DCCA6;">
+              <div class="icon-desc">禁止</div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

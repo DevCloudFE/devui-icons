@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>消息</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="插图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M9,1.08295844 C11.8377133,1.55903653 14,4.02700371 14,7 L14,11 L16,11 L16,13 L0,13 L0,11 L2,11 L2,7 C2,4.02700371 4.16228666,1.55903653 7,1.08295844 L7,0 L9,0 L9,1.08295844 Z M12,11 L12,7 C12,4.790861 10.209139,3 8,3 C5.790861,3 4,4.790861 4,7 L4,11 L12,11 Z M6,14 L10,14 L10,16 L6,16 L6,14 Z" id="Combined-Shape" fill="#293040" fill-rule="nonzero"></path>
+    </g>
+</svg>

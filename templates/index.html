@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>icon font test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="icomoon/<%= cssName%>.css">
+    <style>
+        body {
+            width:80%;
+            margin:0 auto;
+        }
+        .icon {
+            font-size:16px;
+        }
+        .icon-list {
+            overflow: hidden;
+            padding-left:0;
+        }
+        .icon-list li {list-style: none;}
+        .icon-list li{
+            position: relative;
+            display: block;
+            float:left;
+            height:87px;
+            line-height: 87px;
+            text-align: center;
+            margin:0 auto;
+            width:87px;
+            border-top:1px solid #f1f1f1;
+            border-bottom: 1px solid #f1f1f1;
+            border-left:1px solid #f1f1f1;
+        }
+
+        .icon-list li.code-action {
+            height:112px;
+            line-height: 112px;
+            width:112px;
+        }
+        .icon-list li:last-child {
+            border-right: 1px solid #f1f1f1;
+        }
+
+        .help-desk {
+            margin: 15px 0 5px;
+            line-height: 20px;
+            color:#999;
+        }
+
+        .icon-box {
+            overflow: hidden;
+        }
+
+        .icon-desc {
+            position: relative;
+            font-size:12px;
+            color:#aaa;
+            bottom: 28px;
+        }
+        .code-action .icon-desc {
+            bottom: 44px;
+        }
+        .icon_lists li {
+            float: left;
+            width: 120px;
+            height: 170px;
+            text-align: center;
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>DevUI图标</h2>
+    <h3>操作图标</h3>
+    <div class="help-desk">面性图标，单线程2px</div>
+    <div style="display:none;">
+    <% _.each(opIcons, function(icon) { %>
+                {name:'<%= icon %>', label: ''},
+        <% }); %>
+    </div>
+    <div class="icon-box">
+        <ul class="icon-list">
+            <% _.each(opIcons, function(icon) { %>
+                <li ngxClipboard [cbContent]="'icon-<%= icon %>'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-<%= icon %>"></i>
+                    <div class="icon-desc">
+                        <%= icon%>
+                    </div>
+                </li>
+                <% }); %>
+        </ul>
+        
+    </div>
+    <h3>状态图标</h3>
+    <div class="help-desk">1px图标</div>
+    <div class="icon-box">
+        <ul class="icon-list">
+            <li class="icon icon-priority" style="color: #E8F0FD;">
+                <div class="icon-desc">低</div>
+            </li>
+            <li class="icon icon-priority" style="color: #FECC55;">
+                <div class="icon-desc">中</div>
+            </li>
+            <li class="icon icon-priority" style="color: #3DCCA6;">
+                <div class="icon-desc">一版</div>
+            </li>
+            <li class="icon icon-priority" style="color: #F95F5B;">
+                <div class="icon-desc">高</div>
+            </li>
+            <li class="icon icon-dot-status" style="color: #3DCCA6;">
+                <div class="icon-desc">成功</div>
+            </li>
+            <li class="icon icon-dot-status" style="color: #F95F5B;">
+                <div class="icon-desc">错误</div>
+            </li>
+            <li class="icon icon-dot-status" style="color: #D3E2FC;">
+                <div class="icon-desc">开始</div>
+            </li>
+            <li class="icon icon-dot-status" style="color: #5170FF;">
+                <div class="icon-desc">执行</div>
+            </li>
+            <li class="icon icon-right" style="color: #3DCCA6;">
+                <div class="icon-desc">正确</div>
+            </li>
+            <li class="icon icon-error" style="color: #F95F5B;">
+                <div class="icon-desc">错误</div>
+            </li>
+            <li class="icon icon-right-o" style="color: #3DCCA6;">
+                <div class="icon-desc">正确</div>
+            </li>
+            <li class="icon icon-error-o" style="color: #F95F5B;">
+                <div class="icon-desc">错误</div>
+            </li>
+            <li class="icon icon-info" style="color: #5170FF;">
+                <div class="icon-desc">信息</div>
+            </li>
+            <li class="icon icon-info-o" style="color: #5170FF;">
+                <div class="icon-desc">信息</div>
+            </li>
+            <li class="icon icon-warning" style="color: #FECC55;">
+                <div class="icon-desc">警告</div>
+            </li>
+            <li class="icon icon-warning-o" style="color: #FECC55;">
+                <div class="icon-desc">警告</div>
+            </li>
+            <li class="icon icon-running" style="color: #5170FF;">
+                <div class="icon-desc">执行中</div>
+            </li>
+            <li class="icon icon-running-o" style="color: #5170FF;">
+                <div class="icon-desc">执行中</div>
+            </li>
+            <li class="icon icon-forbidding" style="color: #D3E2FC;">
+                <div class="icon-desc">停止</div>
+            </li>
+            <li class="icon icon-forbidding-o" style="color: #D3E2FC;">
+                <div class="icon-desc">停止</div>
+            </li>
+            <li class="icon icon-ban" style="color: #F95F5B;">
+                <div class="icon-desc">禁止</div>
+            </li>
+            <li class="icon icon-unsolved" style="color: #F95F5B;">
+              <div class="icon-desc">禁止</div>
+            </li>
+            <li class="icon icon-solved" style="color: #3DCCA6;">
+              <div class="icon-desc">禁止</div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

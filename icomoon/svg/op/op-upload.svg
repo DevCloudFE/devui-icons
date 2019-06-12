@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="13px" viewBox="0 0 14 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>上传</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="图标" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-862.000000, -167.000000)" id="上传">
+            <g transform="translate(861.000000, 166.000000)">
+                <path d="M7,4.83 L4.71,7.12 L3.29,5.74 L8,1 L12.71,5.74 L11.29,7.12 L9,4.83 L9,9.74 L7,9.74 L7,4.83 Z M13,12 L13,9 L15,9 L15,14 L1,14 L1,9 L3,9 L3,12 L13,12 Z" id="Combined-Shape" fill="#293040" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

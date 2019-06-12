@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>已解决</title>
+    <desc>Created with Sketch.</desc>
+    <g id="图标" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="已解决">
+            <path d="M2,2 L14,2 L14,4 L2,4 L2,2 Z M2,6 L10,6 L10,8 L2,8 L2,6 Z M2,10 L5,10 L5,12 L2,12 L2,10 Z M10,12 L14.4142136,7.58578644 L15.8284271,9 L10,14.8284271 L6.17157288,11 L7.58578644,9.58578644 L10,12 Z" id="形状" fill="#3DCCA6" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

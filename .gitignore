@@ -1,0 +1,15 @@
+*.log
+.*.swp
+.idea/
+.tmp/
+package-lock.json
+dist/
+node_modules/
+public/
+aot/
+
+.DS_Store
+*/.DS_Store
+*/*/DS_Store
+*/*/*.db
+.vscode/*

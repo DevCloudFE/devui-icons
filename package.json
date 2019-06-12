@@ -1,0 +1,32 @@
+{
+  "name": "@devui-design/icons",
+  "version": "1.0.0",
+  "description": "DevUI font icons",
+  "main": "index.js",
+  "scripts": {
+    "iconfont": "gulp iconfont && gulp demo"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-css-url-custom-hash": "0.0.5",
+    "gulp-css-urls": "^0.2.2",
+    "gulp-inject-string": "^1.1.1",
+    "gulp-inline-ng2-template": "^4.0.0",
+    "gulp-if": "2.0.2",
+    "gulp-header": "2.0.5",
+    "gulp-rename": "1.4.0",
+    "gulp-consolidate": "0.2.0",
+    "run-sequence": "2.2.1",
+    "gulp-template": "5.0.0",
+    "gulp-iconfont": "10.0.1",
+    "gulp-iconfont-css": "2.3.0",
+    "gulp.spritesmith": "6.9.0",
+    "less": "2.7.x",
+    "lodash": "4.17.11",
+    "less-loader": "2.2.x",
+    "yargs": "12.0.5",
+    "gulp-less": "4.0.1"
+  }
+}

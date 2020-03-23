@@ -92,6 +92,59 @@
         </ul>
         
     </div>
+    <h3>释义图标</h3>
+    <div class="help-desk">1px图标</div>
+    <div class="help-desk">常用图标</div>
+    <div style="display:none;">
+            <% _.each(commonIcons, function(icon) { %>
+                        {name:'<%= icon %>', label: ''},
+                <% }); %>
+    </div>
+    <div class="icon-box">
+        <ul class="icon-list">
+            <% _.each(commonIcons, function(icon) { %>
+                <li ngxClipboard [cbContent]="'icon-<%= icon %>'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-<%= icon %>"></i>
+                    <div class="icon-desc">
+                        <%= icon%>
+                    </div>
+                </li>
+                <% }); %>
+        </ul>
+    </div>
+    <h3>编辑器图标</h3>
+    <div class="help-desk">编辑器图标</div>
+    <div style="display:none;">
+            <% _.each(otherIcons, function(icon) { %>
+                        {name:'<%= icon %>', label: ''},
+                <% }); %>
+    </div>
+    <div class="icon-box">
+        <ul class="icon-list">
+            <% _.each(editorIcons, function(icon) { %>
+                <li ngxClipboard [cbContent]="'icon-<%= icon %>'">
+                    <i class="icon icon-<%= icon %>"></i>
+                    <div class="icon-desc">
+                        <%= icon%>
+                    </div>
+                </li>
+                <% }); %>
+        </ul>
+    </div>
+    <h3>代码编辑器图标</h3>
+    <div class="help-desk">代码编辑器图标</div>
+    <div class="icon-box">
+        <ul class="icon-list">
+            <% _.each(codeEditorIcons, function(icon) { %>
+                <li ngxClipboard [cbContent]="'icon-<%= icon %>'" >
+                    <i class="icon icon-<%= icon %>"></i>
+                    <div class="icon-desc">
+                        <%= icon%>
+                    </div>
+                </li>
+                <% }); %>
+        </ul>
+    </div>
     <h3>状态图标</h3>
     <div class="help-desk">1px图标</div>
     <div class="icon-box">

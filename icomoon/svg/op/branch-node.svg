@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="7px" viewBox="0 0 13 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>分支节点</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="图标" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-365.000000, -881.000000)" id="分支节点">
+            <g transform="translate(363.000000, 877.000000)">
+                <path d="M11.9645556,8 C11.7219407,9.69614707 10.263236,11 8.5,11 C6.73676405,11 5.27805926,9.69614707 5.03544443,8 L2,8 L2,7 L5.03544443,7 C5.27805926,5.30385293 6.73676405,4 8.5,4 C10.263236,4 11.7219407,5.30385293 11.9645556,7 L15,7 L15,8 L11.9645556,8 Z M8.5,10 C9.88071187,10 11,8.88071187 11,7.5 C11,6.11928813 9.88071187,5 8.5,5 C7.11928813,5 6,6.11928813 6,7.5 C6,8.88071187 7.11928813,10 8.5,10 Z" id="Combined-Shape" fill="#293040" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

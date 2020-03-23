@@ -54,8 +54,13 @@ gulp.task('demo', function () {
 
     gulp.src(`${dirname}/templates/index.html`)
         .pipe(template({ 
+            meanIcons: getIcons("icomoon/svg/mean"), 
             opIcons: getIcons("icomoon/svg/op"), 
-            statusIcons: getIcons("icomoon/svg/status"),
+            statusIcons: getIcons("icomoon/svg/status"), 
+            commonIcons: getIcons("icomoon/svg/mean/common"),             
+            otherIcons: getIcons("icomoon/svg/mean/other"), 
+            editorIcons: getIcons("icomoon/svg/editor"), 
+            codeEditorIcons: getIcons("icomoon/svg/code-editor"), 
             cssName: 'devui-icon',
         }))
         .pipe(gulp.dest(".")); 

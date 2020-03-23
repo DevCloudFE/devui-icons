@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="15px" viewBox="0 0 14 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>marketplace</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="图标" transform="translate(-1165.000000, -2062.000000)">
+            <g id="marketplace" transform="translate(1164.000000, 2062.000000)">
+                <path d="M4,4 C4,1.790861 5.790861,0 8,0 C10.209139,0 12,1.790861 12,4 L14,4 L15,15 L1,15 L2,4 L4,4 Z M5,4 L11,4 C11,2.34314575 9.65685425,1 8,1 C6.34314575,1 5,2.34314575 5,4 Z M4,5 L2.91321464,5 L2.09503282,14 L13.9049672,14 L13.0867854,5 L12,5 L12,7 L11,7 L11,5 L5,5 L5,7 L4,7 L4,5 Z" id="Combined-Shape" fill="#293040" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="14px" viewBox="0 0 12 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>示例</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="图标" transform="translate(-1415.000000, -2063.000000)">
+            <g id="示例" transform="translate(1413.000000, 2062.000000)">
+                <path d="M7,9.29197816 L7,10.381966 L8,9.88196601 L9,10.381966 L9,9.29197816 C8.69376883,9.42577625 8.35555236,9.5 8,9.5 C7.64444764,9.5 7.30623117,9.42577625 7,9.29197816 Z M6,8.50024373 C5.68604474,8.08237171 5.5,7.5629124 5.5,7 C5.5,5.61928813 6.61928813,4.5 8,4.5 C9.38071187,4.5 10.5,5.61928813 10.5,7 C10.5,7.5629124 10.3139553,8.08237171 10,8.50024373 L10,12 L8,11 L6,12 L6,8.50024373 Z M2,1 L14,1 L14,15 L2,15 L2,1 Z M3,2 L3,14 L13,14 L13,2 L3,2 Z M8,8.5 C8.82842712,8.5 9.5,7.82842712 9.5,7 C9.5,6.17157288 8.82842712,5.5 8,5.5 C7.17157288,5.5 6.5,6.17157288 6.5,7 C6.5,7.82842712 7.17157288,8.5 8,8.5 Z" id="Combined-Shape" fill="#293040" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

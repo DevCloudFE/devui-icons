@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="12px" height="14px" viewBox="0 0 12 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>删除</title>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>op-delete</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="图标" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g transform="translate(-365.000000, -167.000000)" id="删除">
-            <g transform="translate(363.000000, 166.000000)">
-                <path d="M3,13.17 C3,14.1806811 3.81931891,15 4.83,15 L11.16,15 C12.1739312,14.9945339 12.9945339,14.1739312 13,13.16 L13,6 L3,6 L3,13.17 Z M14,3 L12,3 L11,1 L5,1 L4,3 L2,3 L2,5 L14,5 L14,3 Z" id="Mask" fill="#293040" fill-rule="nonzero"></path>
-            </g>
+    <g id="op-delete" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(2.000000, 1.000000)" fill="#293040" fill-rule="nonzero" id="Mask">
+            <path d="M1,12.17 C1,13.1806811 1.81931891,14 2.83,14 L9.16,14 C10.1739312,13.9945339 10.9945339,13.1739312 11,12.16 L11,5 L1,5 L1,12.17 Z M12,2 L10,2 L9,0 L3,0 L2,2 L0,2 L0,4 L12,4 L12,2 Z"></path>
         </g>
     </g>
 </svg>

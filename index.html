@@ -76,6 +76,8 @@
     <div class="help-desk">面性图标，单线程2px</div>
     <div style="display:none;">
     
+                {name:'add-2', label: ''},
+        
                 {name:'add-bug', label: ''},
         
                 {name:'add-child-node', label: ''},
@@ -108,23 +110,15 @@
         
                 {name:'archive', label: ''},
         
-                {name:'arrow-down-o', label: ''},
-        
                 {name:'arrow-down', label: ''},
-        
-                {name:'arrow-left-o', label: ''},
         
                 {name:'arrow-left', label: ''},
         
-                {name:'arrow-right-o', label: ''},
-        
                 {name:'arrow-right', label: ''},
-        
-                {name:'arrow-up-o', label: ''},
         
                 {name:'arrow-up', label: ''},
         
-                {name:'base-info', label: ''},
+                {name:'base-info2', label: ''},
         
                 {name:'branch-compare', label: ''},
         
@@ -152,15 +146,27 @@
         
                 {name:'chevron-up', label: ''},
         
+                {name:'classroom-approve', label: ''},
+        
+                {name:'classroom-post-answers-large', label: ''},
+        
+                {name:'classroom-post-results-large', label: ''},
+        
+                {name:'classroom-reject', label: ''},
+        
                 {name:'close-folder', label: ''},
         
                 {name:'close', label: ''},
+        
+                {name:'closed-merge', label: ''},
         
                 {name:'code', label: ''},
         
                 {name:'collapse-info', label: ''},
         
                 {name:'collapse', label: ''},
+        
+                {name:'compare', label: ''},
         
                 {name:'connect-code', label: ''},
         
@@ -220,19 +226,21 @@
         
                 {name:'fold', label: ''},
         
+                {name:'folder-2', label: ''},
+        
                 {name:'forbid', label: ''},
         
-                {name:'forbidden', label: ''},
-        
                 {name:'fork-code', label: ''},
+        
+                {name:'fork', label: ''},
         
                 {name:'frame-contract', label: ''},
         
                 {name:'frame-expand', label: ''},
         
-                {name:'frok', label: ''},
+                {name:'function-guide', label: ''},
         
-                {name:'global-guide', label: ''},
+                {name:'go-back', label: ''},
         
                 {name:'go-chart', label: ''},
         
@@ -256,17 +264,19 @@
         
                 {name:'go-story', label: ''},
         
-                {name:'go-top', label: ''},
-        
                 {name:'go-tree', label: ''},
         
                 {name:'gps', label: ''},
+        
+                {name:'groupby', label: ''},
         
                 {name:'head-notice', label: ''},
         
                 {name:'health', label: ''},
         
                 {name:'help', label: ''},
+        
+                {name:'hot', label: ''},
         
                 {name:'hotkey', label: ''},
         
@@ -278,15 +288,27 @@
         
                 {name:'layout', label: ''},
         
+                {name:'letter-a', label: ''},
+        
+                {name:'like-solid', label: ''},
+        
                 {name:'list-view', label: ''},
         
                 {name:'loading', label: ''},
         
                 {name:'local-parameter', label: ''},
         
+                {name:'log', label: ''},
+        
                 {name:'loop', label: ''},
         
+                {name:'love', label: ''},
+        
                 {name:'maxmize', label: ''},
+        
+                {name:'merge-request', label: ''},
+        
+                {name:'milestone', label: ''},
         
                 {name:'minimize', label: ''},
         
@@ -334,21 +356,31 @@
         
                 {name:'preview', label: ''},
         
+                {name:'property', label: ''},
+        
                 {name:'publish', label: ''},
         
                 {name:'qrcode', label: ''},
+        
+                {name:'quick-stop', label: ''},
         
                 {name:'refresh', label: ''},
         
                 {name:'release-set', label: ''},
         
-                {name:'remove-member', label: ''},
+                {name:'remind-close', label: ''},
+        
+                {name:'remind', label: ''},
+        
+                {name:'remove-member-icon', label: ''},
         
                 {name:'remove', label: ''},
         
                 {name:'rename', label: ''},
         
                 {name:'rollback', label: ''},
+        
+                {name:'rollback2', label: ''},
         
                 {name:'run-with-parameter', label: ''},
         
@@ -359,6 +391,8 @@
                 {name:'scan-qrcode', label: ''},
         
                 {name:'search', label: ''},
+        
+                {name:'select-arrow', label: ''},
         
                 {name:'select-horizontal-layout', label: ''},
         
@@ -380,11 +414,15 @@
         
                 {name:'shrink', label: ''},
         
+                {name:'sort', label: ''},
+        
                 {name:'spread-info', label: ''},
         
                 {name:'star-o', label: ''},
         
                 {name:'star', label: ''},
+        
+                {name:'start-merge', label: ''},
         
                 {name:'start-use', label: ''},
         
@@ -422,6 +460,13 @@
     <div class="icon-box">
         <ul class="icon-list">
             
+                <li ngxClipboard [cbContent]="'icon-add-2'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-add-2"></i>
+                    <div class="icon-desc">
+                        add-2
+                    </div>
+                </li>
+                
                 <li ngxClipboard [cbContent]="'icon-add-bug'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-add-bug"></i>
                     <div class="icon-desc">
@@ -534,24 +579,10 @@
                     </div>
                 </li>
                 
-                <li ngxClipboard [cbContent]="'icon-arrow-down-o'" (cbOnSuccess)="copyToClipboard();">
-                    <i class="icon icon-arrow-down-o"></i>
-                    <div class="icon-desc">
-                        arrow-down-o
-                    </div>
-                </li>
-                
                 <li ngxClipboard [cbContent]="'icon-arrow-down'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-arrow-down"></i>
                     <div class="icon-desc">
                         arrow-down
-                    </div>
-                </li>
-                
-                <li ngxClipboard [cbContent]="'icon-arrow-left-o'" (cbOnSuccess)="copyToClipboard();">
-                    <i class="icon icon-arrow-left-o"></i>
-                    <div class="icon-desc">
-                        arrow-left-o
                     </div>
                 </li>
                 
@@ -562,24 +593,10 @@
                     </div>
                 </li>
                 
-                <li ngxClipboard [cbContent]="'icon-arrow-right-o'" (cbOnSuccess)="copyToClipboard();">
-                    <i class="icon icon-arrow-right-o"></i>
-                    <div class="icon-desc">
-                        arrow-right-o
-                    </div>
-                </li>
-                
                 <li ngxClipboard [cbContent]="'icon-arrow-right'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-arrow-right"></i>
                     <div class="icon-desc">
                         arrow-right
-                    </div>
-                </li>
-                
-                <li ngxClipboard [cbContent]="'icon-arrow-up-o'" (cbOnSuccess)="copyToClipboard();">
-                    <i class="icon icon-arrow-up-o"></i>
-                    <div class="icon-desc">
-                        arrow-up-o
                     </div>
                 </li>
                 
@@ -590,10 +607,10 @@
                     </div>
                 </li>
                 
-                <li ngxClipboard [cbContent]="'icon-base-info'" (cbOnSuccess)="copyToClipboard();">
-                    <i class="icon icon-base-info"></i>
+                <li ngxClipboard [cbContent]="'icon-base-info2'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-base-info2"></i>
                     <div class="icon-desc">
-                        base-info
+                        base-info2
                     </div>
                 </li>
                 
@@ -688,6 +705,34 @@
                     </div>
                 </li>
                 
+                <li ngxClipboard [cbContent]="'icon-classroom-approve'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-classroom-approve"></i>
+                    <div class="icon-desc">
+                        classroom-approve
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-classroom-post-answers-large'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-classroom-post-answers-large"></i>
+                    <div class="icon-desc">
+                        classroom-post-answers-large
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-classroom-post-results-large'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-classroom-post-results-large"></i>
+                    <div class="icon-desc">
+                        classroom-post-results-large
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-classroom-reject'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-classroom-reject"></i>
+                    <div class="icon-desc">
+                        classroom-reject
+                    </div>
+                </li>
+                
                 <li ngxClipboard [cbContent]="'icon-close-folder'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-close-folder"></i>
                     <div class="icon-desc">
@@ -699,6 +744,13 @@
                     <i class="icon icon-close"></i>
                     <div class="icon-desc">
                         close
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-closed-merge'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-closed-merge"></i>
+                    <div class="icon-desc">
+                        closed-merge
                     </div>
                 </li>
                 
@@ -720,6 +772,13 @@
                     <i class="icon icon-collapse"></i>
                     <div class="icon-desc">
                         collapse
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-compare'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-compare"></i>
+                    <div class="icon-desc">
+                        compare
                     </div>
                 </li>
                 
@@ -926,6 +985,13 @@
                     </div>
                 </li>
                 
+                <li ngxClipboard [cbContent]="'icon-folder-2'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-folder-2"></i>
+                    <div class="icon-desc">
+                        folder-2
+                    </div>
+                </li>
+                
                 <li ngxClipboard [cbContent]="'icon-forbid'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-forbid"></i>
                     <div class="icon-desc">
@@ -933,17 +999,17 @@
                     </div>
                 </li>
                 
-                <li ngxClipboard [cbContent]="'icon-forbidden'" (cbOnSuccess)="copyToClipboard();">
-                    <i class="icon icon-forbidden"></i>
-                    <div class="icon-desc">
-                        forbidden
-                    </div>
-                </li>
-                
                 <li ngxClipboard [cbContent]="'icon-fork-code'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-fork-code"></i>
                     <div class="icon-desc">
                         fork-code
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-fork'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-fork"></i>
+                    <div class="icon-desc">
+                        fork
                     </div>
                 </li>
                 
@@ -961,17 +1027,17 @@
                     </div>
                 </li>
                 
-                <li ngxClipboard [cbContent]="'icon-frok'" (cbOnSuccess)="copyToClipboard();">
-                    <i class="icon icon-frok"></i>
+                <li ngxClipboard [cbContent]="'icon-function-guide'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-function-guide"></i>
                     <div class="icon-desc">
-                        frok
+                        function-guide
                     </div>
                 </li>
                 
-                <li ngxClipboard [cbContent]="'icon-global-guide'" (cbOnSuccess)="copyToClipboard();">
-                    <i class="icon icon-global-guide"></i>
+                <li ngxClipboard [cbContent]="'icon-go-back'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-go-back"></i>
                     <div class="icon-desc">
-                        global-guide
+                        go-back
                     </div>
                 </li>
                 
@@ -1052,13 +1118,6 @@
                     </div>
                 </li>
                 
-                <li ngxClipboard [cbContent]="'icon-go-top'" (cbOnSuccess)="copyToClipboard();">
-                    <i class="icon icon-go-top"></i>
-                    <div class="icon-desc">
-                        go-top
-                    </div>
-                </li>
-                
                 <li ngxClipboard [cbContent]="'icon-go-tree'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-go-tree"></i>
                     <div class="icon-desc">
@@ -1070,6 +1129,13 @@
                     <i class="icon icon-gps"></i>
                     <div class="icon-desc">
                         gps
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-groupby'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-groupby"></i>
+                    <div class="icon-desc">
+                        groupby
                     </div>
                 </li>
                 
@@ -1091,6 +1157,13 @@
                     <i class="icon icon-help"></i>
                     <div class="icon-desc">
                         help
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-hot'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-hot"></i>
+                    <div class="icon-desc">
+                        hot
                     </div>
                 </li>
                 
@@ -1129,6 +1202,20 @@
                     </div>
                 </li>
                 
+                <li ngxClipboard [cbContent]="'icon-letter-a'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-letter-a"></i>
+                    <div class="icon-desc">
+                        letter-a
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-like-solid'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-like-solid"></i>
+                    <div class="icon-desc">
+                        like-solid
+                    </div>
+                </li>
+                
                 <li ngxClipboard [cbContent]="'icon-list-view'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-list-view"></i>
                     <div class="icon-desc">
@@ -1150,6 +1237,13 @@
                     </div>
                 </li>
                 
+                <li ngxClipboard [cbContent]="'icon-log'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-log"></i>
+                    <div class="icon-desc">
+                        log
+                    </div>
+                </li>
+                
                 <li ngxClipboard [cbContent]="'icon-loop'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-loop"></i>
                     <div class="icon-desc">
@@ -1157,10 +1251,31 @@
                     </div>
                 </li>
                 
+                <li ngxClipboard [cbContent]="'icon-love'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-love"></i>
+                    <div class="icon-desc">
+                        love
+                    </div>
+                </li>
+                
                 <li ngxClipboard [cbContent]="'icon-maxmize'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-maxmize"></i>
                     <div class="icon-desc">
                         maxmize
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-merge-request'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-merge-request"></i>
+                    <div class="icon-desc">
+                        merge-request
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-milestone'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-milestone"></i>
+                    <div class="icon-desc">
+                        milestone
                     </div>
                 </li>
                 
@@ -1325,6 +1440,13 @@
                     </div>
                 </li>
                 
+                <li ngxClipboard [cbContent]="'icon-property'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-property"></i>
+                    <div class="icon-desc">
+                        property
+                    </div>
+                </li>
+                
                 <li ngxClipboard [cbContent]="'icon-publish'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-publish"></i>
                     <div class="icon-desc">
@@ -1336,6 +1458,13 @@
                     <i class="icon icon-qrcode"></i>
                     <div class="icon-desc">
                         qrcode
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-quick-stop'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-quick-stop"></i>
+                    <div class="icon-desc">
+                        quick-stop
                     </div>
                 </li>
                 
@@ -1353,10 +1482,24 @@
                     </div>
                 </li>
                 
-                <li ngxClipboard [cbContent]="'icon-remove-member'" (cbOnSuccess)="copyToClipboard();">
-                    <i class="icon icon-remove-member"></i>
+                <li ngxClipboard [cbContent]="'icon-remind-close'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-remind-close"></i>
                     <div class="icon-desc">
-                        remove-member
+                        remind-close
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-remind'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-remind"></i>
+                    <div class="icon-desc">
+                        remind
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-remove-member-icon'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-remove-member-icon"></i>
+                    <div class="icon-desc">
+                        remove-member-icon
                     </div>
                 </li>
                 
@@ -1378,6 +1521,13 @@
                     <i class="icon icon-rollback"></i>
                     <div class="icon-desc">
                         rollback
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-rollback2'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-rollback2"></i>
+                    <div class="icon-desc">
+                        rollback2
                     </div>
                 </li>
                 
@@ -1413,6 +1563,13 @@
                     <i class="icon icon-search"></i>
                     <div class="icon-desc">
                         search
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-select-arrow'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-select-arrow"></i>
+                    <div class="icon-desc">
+                        select-arrow
                     </div>
                 </li>
                 
@@ -1486,6 +1643,13 @@
                     </div>
                 </li>
                 
+                <li ngxClipboard [cbContent]="'icon-sort'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-sort"></i>
+                    <div class="icon-desc">
+                        sort
+                    </div>
+                </li>
+                
                 <li ngxClipboard [cbContent]="'icon-spread-info'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-spread-info"></i>
                     <div class="icon-desc">
@@ -1504,6 +1668,13 @@
                     <i class="icon icon-star"></i>
                     <div class="icon-desc">
                         star
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-start-merge'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-start-merge"></i>
+                    <div class="icon-desc">
+                        start-merge
                     </div>
                 </li>
                 
@@ -1633,13 +1804,21 @@
                 
                         {name:'advisory', label: ''},
                 
-                        {name:'archived-item-selected', label: ''},
-                
                         {name:'archived-item', label: ''},
+                
+                        {name:'arrow-down-o', label: ''},
+                
+                        {name:'arrow-left-o', label: ''},
+                
+                        {name:'arrow-right-o', label: ''},
+                
+                        {name:'arrow-up-o', label: ''},
+                
+                        {name:'assign', label: ''},
                 
                         {name:'b-tree', label: ''},
                 
-                        {name:'base-info2', label: ''},
+                        {name:'base-info', label: ''},
                 
                         {name:'basicinfo', label: ''},
                 
@@ -1649,15 +1828,23 @@
                 
                         {name:'calendar-start', label: ''},
                 
+                        {name:'chevron-down-2', label: ''},
+                
+                        {name:'chevron-up-2', label: ''},
+                
                         {name:'clearup', label: ''},
                 
                         {name:'clever-customer', label: ''},
                 
                         {name:'comment', label: ''},
                 
+                        {name:'commit', label: ''},
+                
                         {name:'company-member', label: ''},
                 
                         {name:'console', label: ''},
+                
+                        {name:'date', label: ''},
                 
                         {name:'deploy-store', label: ''},
                 
@@ -1666,6 +1853,8 @@
                         {name:'devcloud-service', label: ''},
                 
                         {name:'develop-collaboration', label: ''},
+                
+                        {name:'dislike', label: ''},
                 
                         {name:'domain', label: ''},
                 
@@ -1687,7 +1876,9 @@
                 
                         {name:'forum', label: ''},
                 
-                        {name:'function-guide', label: ''},
+                        {name:'global-guide', label: ''},
+                
+                        {name:'go-top', label: ''},
                 
                         {name:'helping', label: ''},
                 
@@ -1705,6 +1896,8 @@
                 
                         {name:'ip-legality', label: ''},
                 
+                        {name:'license', label: ''},
+                
                         {name:'like', label: ''},
                 
                         {name:'line-chart', label: ''},
@@ -1715,15 +1908,17 @@
                 
                         {name:'locked-key', label: ''},
                 
-                        {name:'log', label: ''},
-                
                         {name:'management', label: ''},
                 
                         {name:'marketplace', label: ''},
                 
                         {name:'member', label: ''},
                 
+                        {name:'merge-request2', label: ''},
+                
                         {name:'merge', label: ''},
+                
+                        {name:'message-2', label: ''},
                 
                         {name:'message', label: ''},
                 
@@ -1735,7 +1930,11 @@
                 
                         {name:'notice', label: ''},
                 
+                        {name:'open-folder-2', label: ''},
+                
                         {name:'operation-log', label: ''},
+                
+                        {name:'related', label: ''},
                 
                         {name:'safe-setting', label: ''},
                 
@@ -1753,13 +1952,17 @@
                 
                         {name:'tag', label: ''},
                 
+                        {name:'time-update', label: ''},
+                
                         {name:'time', label: ''},
                 
-                        {name:'unarchived-item-selected', label: ''},
+                        {name:'trigger', label: ''},
                 
                         {name:'unarchived-item', label: ''},
                 
                         {name:'unlock', label: ''},
+                
+                        {name:'unlove', label: ''},
                 
                         {name:'user-defined', label: ''},
                 
@@ -1790,17 +1993,45 @@
                     </div>
                 </li>
                 
-                <li ngxClipboard [cbContent]="'icon-archived-item-selected'" (cbOnSuccess)="copyToClipboard();">
-                    <i class="icon icon-archived-item-selected"></i>
-                    <div class="icon-desc">
-                        archived-item-selected
-                    </div>
-                </li>
-                
                 <li ngxClipboard [cbContent]="'icon-archived-item'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-archived-item"></i>
                     <div class="icon-desc">
                         archived-item
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-arrow-down-o'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-arrow-down-o"></i>
+                    <div class="icon-desc">
+                        arrow-down-o
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-arrow-left-o'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-arrow-left-o"></i>
+                    <div class="icon-desc">
+                        arrow-left-o
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-arrow-right-o'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-arrow-right-o"></i>
+                    <div class="icon-desc">
+                        arrow-right-o
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-arrow-up-o'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-arrow-up-o"></i>
+                    <div class="icon-desc">
+                        arrow-up-o
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-assign'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-assign"></i>
+                    <div class="icon-desc">
+                        assign
                     </div>
                 </li>
                 
@@ -1811,10 +2042,10 @@
                     </div>
                 </li>
                 
-                <li ngxClipboard [cbContent]="'icon-base-info2'" (cbOnSuccess)="copyToClipboard();">
-                    <i class="icon icon-base-info2"></i>
+                <li ngxClipboard [cbContent]="'icon-base-info'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-base-info"></i>
                     <div class="icon-desc">
-                        base-info2
+                        base-info
                     </div>
                 </li>
                 
@@ -1846,6 +2077,20 @@
                     </div>
                 </li>
                 
+                <li ngxClipboard [cbContent]="'icon-chevron-down-2'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-chevron-down-2"></i>
+                    <div class="icon-desc">
+                        chevron-down-2
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-chevron-up-2'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-chevron-up-2"></i>
+                    <div class="icon-desc">
+                        chevron-up-2
+                    </div>
+                </li>
+                
                 <li ngxClipboard [cbContent]="'icon-clearup'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-clearup"></i>
                     <div class="icon-desc">
@@ -1867,6 +2112,13 @@
                     </div>
                 </li>
                 
+                <li ngxClipboard [cbContent]="'icon-commit'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-commit"></i>
+                    <div class="icon-desc">
+                        commit
+                    </div>
+                </li>
+                
                 <li ngxClipboard [cbContent]="'icon-company-member'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-company-member"></i>
                     <div class="icon-desc">
@@ -1878,6 +2130,13 @@
                     <i class="icon icon-console"></i>
                     <div class="icon-desc">
                         console
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-date'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-date"></i>
+                    <div class="icon-desc">
+                        date
                     </div>
                 </li>
                 
@@ -1906,6 +2165,13 @@
                     <i class="icon icon-develop-collaboration"></i>
                     <div class="icon-desc">
                         develop-collaboration
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-dislike'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-dislike"></i>
+                    <div class="icon-desc">
+                        dislike
                     </div>
                 </li>
                 
@@ -1979,10 +2245,17 @@
                     </div>
                 </li>
                 
-                <li ngxClipboard [cbContent]="'icon-function-guide'" (cbOnSuccess)="copyToClipboard();">
-                    <i class="icon icon-function-guide"></i>
+                <li ngxClipboard [cbContent]="'icon-global-guide'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-global-guide"></i>
                     <div class="icon-desc">
-                        function-guide
+                        global-guide
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-go-top'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-go-top"></i>
+                    <div class="icon-desc">
+                        go-top
                     </div>
                 </li>
                 
@@ -2042,6 +2315,13 @@
                     </div>
                 </li>
                 
+                <li ngxClipboard [cbContent]="'icon-license'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-license"></i>
+                    <div class="icon-desc">
+                        license
+                    </div>
+                </li>
+                
                 <li ngxClipboard [cbContent]="'icon-like'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-like"></i>
                     <div class="icon-desc">
@@ -2077,13 +2357,6 @@
                     </div>
                 </li>
                 
-                <li ngxClipboard [cbContent]="'icon-log'" (cbOnSuccess)="copyToClipboard();">
-                    <i class="icon icon-log"></i>
-                    <div class="icon-desc">
-                        log
-                    </div>
-                </li>
-                
                 <li ngxClipboard [cbContent]="'icon-management'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-management"></i>
                     <div class="icon-desc">
@@ -2105,10 +2378,24 @@
                     </div>
                 </li>
                 
+                <li ngxClipboard [cbContent]="'icon-merge-request2'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-merge-request2"></i>
+                    <div class="icon-desc">
+                        merge-request2
+                    </div>
+                </li>
+                
                 <li ngxClipboard [cbContent]="'icon-merge'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-merge"></i>
                     <div class="icon-desc">
                         merge
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-message-2'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-message-2"></i>
+                    <div class="icon-desc">
+                        message-2
                     </div>
                 </li>
                 
@@ -2147,10 +2434,24 @@
                     </div>
                 </li>
                 
+                <li ngxClipboard [cbContent]="'icon-open-folder-2'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-open-folder-2"></i>
+                    <div class="icon-desc">
+                        open-folder-2
+                    </div>
+                </li>
+                
                 <li ngxClipboard [cbContent]="'icon-operation-log'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-operation-log"></i>
                     <div class="icon-desc">
                         operation-log
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-related'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-related"></i>
+                    <div class="icon-desc">
+                        related
                     </div>
                 </li>
                 
@@ -2210,6 +2511,13 @@
                     </div>
                 </li>
                 
+                <li ngxClipboard [cbContent]="'icon-time-update'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-time-update"></i>
+                    <div class="icon-desc">
+                        time-update
+                    </div>
+                </li>
+                
                 <li ngxClipboard [cbContent]="'icon-time'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-time"></i>
                     <div class="icon-desc">
@@ -2217,10 +2525,10 @@
                     </div>
                 </li>
                 
-                <li ngxClipboard [cbContent]="'icon-unarchived-item-selected'" (cbOnSuccess)="copyToClipboard();">
-                    <i class="icon icon-unarchived-item-selected"></i>
+                <li ngxClipboard [cbContent]="'icon-trigger'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-trigger"></i>
                     <div class="icon-desc">
-                        unarchived-item-selected
+                        trigger
                     </div>
                 </li>
                 
@@ -2235,6 +2543,13 @@
                     <i class="icon icon-unlock"></i>
                     <div class="icon-desc">
                         unlock
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-unlove'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-unlove"></i>
+                    <div class="icon-desc">
+                        unlove
                     </div>
                 </li>
                 

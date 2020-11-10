@@ -1,6 +1,6 @@
 {
   "name": "@devui-design/icons",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "DevUI font icons",
   "main": "index.js",
   "scripts": {

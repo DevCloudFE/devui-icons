@@ -110,6 +110,8 @@
         
                 {name:'archive', label: ''},
         
+                {name:'archived', label: ''},
+        
                 {name:'arrow-down', label: ''},
         
                 {name:'arrow-left', label: ''},
@@ -123,8 +125,6 @@
                 {name:'branch-compare', label: ''},
         
                 {name:'branch-merge', label: ''},
-        
-                {name:'branch-node', label: ''},
         
                 {name:'bug', label: ''},
         
@@ -188,6 +188,8 @@
         
                 {name:'cut', label: ''},
         
+                {name:'dashboard', label: ''},
+        
                 {name:'delete', label: ''},
         
                 {name:'depend', label: ''},
@@ -195,8 +197,6 @@
                 {name:'directory', label: ''},
         
                 {name:'down-config', label: ''},
-        
-                {name:'down-customization', label: ''},
         
                 {name:'download-baseline', label: ''},
         
@@ -240,6 +240,8 @@
         
                 {name:'function-guide', label: ''},
         
+                {name:'go-back-2', label: ''},
+        
                 {name:'go-back', label: ''},
         
                 {name:'go-chart', label: ''},
@@ -269,6 +271,8 @@
                 {name:'gps', label: ''},
         
                 {name:'groupby', label: ''},
+        
+                {name:'guidance', label: ''},
         
                 {name:'head-notice', label: ''},
         
@@ -322,15 +326,13 @@
         
                 {name:'more-operate', label: ''},
         
-                {name:'new-bug', label: ''},
-        
                 {name:'op-add', label: ''},
         
                 {name:'op-clearup', label: ''},
         
-                {name:'op-delete', label: ''},
-        
                 {name:'op-download', label: ''},
+        
+                {name:'op-exit-2', label: ''},
         
                 {name:'op-exit', label: ''},
         
@@ -356,6 +358,10 @@
         
                 {name:'preview', label: ''},
         
+                {name:'project-space', label: ''},
+        
+                {name:'projects', label: ''},
+        
                 {name:'property', label: ''},
         
                 {name:'publish', label: ''},
@@ -378,6 +384,8 @@
         
                 {name:'rename', label: ''},
         
+                {name:'restart', label: ''},
+        
                 {name:'rollback', label: ''},
         
                 {name:'rollback2', label: ''},
@@ -389,6 +397,8 @@
                 {name:'save', label: ''},
         
                 {name:'scan-qrcode', label: ''},
+        
+                {name:'scrum', label: ''},
         
                 {name:'search', label: ''},
         
@@ -579,6 +589,13 @@
                     </div>
                 </li>
                 
+                <li ngxClipboard [cbContent]="'icon-archived'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-archived"></i>
+                    <div class="icon-desc">
+                        archived
+                    </div>
+                </li>
+                
                 <li ngxClipboard [cbContent]="'icon-arrow-down'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-arrow-down"></i>
                     <div class="icon-desc">
@@ -625,13 +642,6 @@
                     <i class="icon icon-branch-merge"></i>
                     <div class="icon-desc">
                         branch-merge
-                    </div>
-                </li>
-                
-                <li ngxClipboard [cbContent]="'icon-branch-node'" (cbOnSuccess)="copyToClipboard();">
-                    <i class="icon icon-branch-node"></i>
-                    <div class="icon-desc">
-                        branch-node
                     </div>
                 </li>
                 
@@ -852,6 +862,13 @@
                     </div>
                 </li>
                 
+                <li ngxClipboard [cbContent]="'icon-dashboard'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-dashboard"></i>
+                    <div class="icon-desc">
+                        dashboard
+                    </div>
+                </li>
+                
                 <li ngxClipboard [cbContent]="'icon-delete'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-delete"></i>
                     <div class="icon-desc">
@@ -877,13 +894,6 @@
                     <i class="icon icon-down-config"></i>
                     <div class="icon-desc">
                         down-config
-                    </div>
-                </li>
-                
-                <li ngxClipboard [cbContent]="'icon-down-customization'" (cbOnSuccess)="copyToClipboard();">
-                    <i class="icon icon-down-customization"></i>
-                    <div class="icon-desc">
-                        down-customization
                     </div>
                 </li>
                 
@@ -1034,6 +1044,13 @@
                     </div>
                 </li>
                 
+                <li ngxClipboard [cbContent]="'icon-go-back-2'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-go-back-2"></i>
+                    <div class="icon-desc">
+                        go-back-2
+                    </div>
+                </li>
+                
                 <li ngxClipboard [cbContent]="'icon-go-back'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-go-back"></i>
                     <div class="icon-desc">
@@ -1136,6 +1153,13 @@
                     <i class="icon icon-groupby"></i>
                     <div class="icon-desc">
                         groupby
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-guidance'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-guidance"></i>
+                    <div class="icon-desc">
+                        guidance
                     </div>
                 </li>
                 
@@ -1321,13 +1345,6 @@
                     </div>
                 </li>
                 
-                <li ngxClipboard [cbContent]="'icon-new-bug'" (cbOnSuccess)="copyToClipboard();">
-                    <i class="icon icon-new-bug"></i>
-                    <div class="icon-desc">
-                        new-bug
-                    </div>
-                </li>
-                
                 <li ngxClipboard [cbContent]="'icon-op-add'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-op-add"></i>
                     <div class="icon-desc">
@@ -1342,17 +1359,17 @@
                     </div>
                 </li>
                 
-                <li ngxClipboard [cbContent]="'icon-op-delete'" (cbOnSuccess)="copyToClipboard();">
-                    <i class="icon icon-op-delete"></i>
-                    <div class="icon-desc">
-                        op-delete
-                    </div>
-                </li>
-                
                 <li ngxClipboard [cbContent]="'icon-op-download'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-op-download"></i>
                     <div class="icon-desc">
                         op-download
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-op-exit-2'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-op-exit-2"></i>
+                    <div class="icon-desc">
+                        op-exit-2
                     </div>
                 </li>
                 
@@ -1440,6 +1457,20 @@
                     </div>
                 </li>
                 
+                <li ngxClipboard [cbContent]="'icon-project-space'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-project-space"></i>
+                    <div class="icon-desc">
+                        project-space
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-projects'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-projects"></i>
+                    <div class="icon-desc">
+                        projects
+                    </div>
+                </li>
+                
                 <li ngxClipboard [cbContent]="'icon-property'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-property"></i>
                     <div class="icon-desc">
@@ -1517,6 +1548,13 @@
                     </div>
                 </li>
                 
+                <li ngxClipboard [cbContent]="'icon-restart'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-restart"></i>
+                    <div class="icon-desc">
+                        restart
+                    </div>
+                </li>
+                
                 <li ngxClipboard [cbContent]="'icon-rollback'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-rollback"></i>
                     <div class="icon-desc">
@@ -1556,6 +1594,13 @@
                     <i class="icon icon-scan-qrcode"></i>
                     <div class="icon-desc">
                         scan-qrcode
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-scrum'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-scrum"></i>
+                    <div class="icon-desc">
+                        scrum
                     </div>
                 </li>
                 
@@ -1822,6 +1867,8 @@
                 
                         {name:'basicinfo', label: ''},
                 
+                        {name:'branch-merge-o', label: ''},
+                
                         {name:'bulletin', label: ''},
                 
                         {name:'calendar-end', label: ''},
@@ -1857,6 +1904,8 @@
                         {name:'dislike', label: ''},
                 
                         {name:'domain', label: ''},
+                
+                        {name:'en-change', label: ''},
                 
                         {name:'exit', label: ''},
                 
@@ -1936,6 +1985,10 @@
                 
                         {name:'related', label: ''},
                 
+                        {name:'relation-item', label: ''},
+                
+                        {name:'round-corner', label: ''},
+                
                         {name:'safe-setting', label: ''},
                 
                         {name:'scan-focus', label: ''},
@@ -1951,6 +2004,8 @@
                         {name:'system', label: ''},
                 
                         {name:'tag', label: ''},
+                
+                        {name:'theme-color', label: ''},
                 
                         {name:'time-update', label: ''},
                 
@@ -2053,6 +2108,13 @@
                     <i class="icon icon-basicinfo"></i>
                     <div class="icon-desc">
                         basicinfo
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-branch-merge-o'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-branch-merge-o"></i>
+                    <div class="icon-desc">
+                        branch-merge-o
                     </div>
                 </li>
                 
@@ -2179,6 +2241,13 @@
                     <i class="icon icon-domain"></i>
                     <div class="icon-desc">
                         domain
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-en-change'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-en-change"></i>
+                    <div class="icon-desc">
+                        en-change
                     </div>
                 </li>
                 
@@ -2455,6 +2524,20 @@
                     </div>
                 </li>
                 
+                <li ngxClipboard [cbContent]="'icon-relation-item'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-relation-item"></i>
+                    <div class="icon-desc">
+                        relation-item
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-round-corner'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-round-corner"></i>
+                    <div class="icon-desc">
+                        round-corner
+                    </div>
+                </li>
+                
                 <li ngxClipboard [cbContent]="'icon-safe-setting'" (cbOnSuccess)="copyToClipboard();">
                     <i class="icon icon-safe-setting"></i>
                     <div class="icon-desc">
@@ -2508,6 +2591,13 @@
                     <i class="icon icon-tag"></i>
                     <div class="icon-desc">
                         tag
+                    </div>
+                </li>
+                
+                <li ngxClipboard [cbContent]="'icon-theme-color'" (cbOnSuccess)="copyToClipboard();">
+                    <i class="icon icon-theme-color"></i>
+                    <div class="icon-desc">
+                        theme-color
                     </div>
                 </li>
                 

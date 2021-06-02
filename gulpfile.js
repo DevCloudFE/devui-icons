@@ -5,14 +5,11 @@ var iconfont = require('gulp-iconfont');
 var iconfontCss = require('gulp-iconfont-css');
 var template = require('gulp-template');
 
-var runSequence = require('run-sequence');
-var cssUrls = require('gulp-css-urls');
-
 var fontName = 'devui-icomoon';
 var devUIFontDir = './icomoon/';
 var runTimestamp = Math.round(Date.now() / 1000);
 
-gulp.task('iconfont',  function () {
+gulp.task('iconfont',  function (done) {
     gulp.src(devUIFontDir + 'svg/**/*.svg')
         .pipe(iconfontCss({
             fontName: fontName,
@@ -33,9 +30,10 @@ gulp.task('iconfont',  function () {
             console.log(glyphs, options);
         })
         .pipe(gulp.dest( './icomoon/fonts'));
+        done();
 });
 
-function getIcons( dir) {
+function getIcons(dir) {
     let opIcons = [];
     if(fs.existsSync("./" + dir)) {
     	opIconsTmp = fs.readdirSync("./" + dir);
@@ -49,10 +47,8 @@ function getIcons( dir) {
     return opIcons;
 }
 
-gulp.task('demo', function () {
-    let dirname = './';
-
-    gulp.src(`${dirname}/templates/index.html`)
+gulp.task('demo', function (done) {
+    gulp.src(`./templates/index.html`)
         .pipe(template({ 
             meanIcons: getIcons("icomoon/svg/mean"), 
             opIcons: getIcons("icomoon/svg/op"), 
@@ -64,5 +60,6 @@ gulp.task('demo', function () {
             cssName: 'devui-icon',
         }))
         .pipe(gulp.dest(".")); 
+        done();
 });
 

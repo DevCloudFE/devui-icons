@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>操作/编辑</title>
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>15编辑</title>
     <desc>Created with Sketch.</desc>
-    <g id="操作/编辑" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M9.48528137,3.41421356 L10.8994949,2 L13.7279221,4.82842712 L12.3137085,6.24264069 L9.48528137,3.41421356 Z M5.24264069,13.3137085 L2.41421356,13.3137085 L2.41421356,10.4852814 L8.77817459,4.12132034 L11.6066017,6.94974747 L5.24264069,13.3137085 Z" id="Combined-Shape" fill="#293040"></path>
+    <g id="15编辑" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8.91425133,2.82821541 L13.156892,7.07085609 L5.54189591,14.6858522 L1.13607673,14.8490307 L1.29925522,10.4432115 L8.91425133,2.82821541 Z M8.914,5.656 L3.268,11.302 L3.214,12.77 L4.682,12.716 L10.328,7.07 L8.914,5.656 Z M11.0355717,0.706895063 L15.2782124,4.94953575 L13.8639988,6.36374931 L9.62135811,2.12110863 L11.0355717,0.706895063 Z" id="形状" fill="#575D6C" fill-rule="nonzero"></path>
     </g>
 </svg>

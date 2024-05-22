@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>kanban</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M13,2 C14.1,2 15,2.89 15,4 L15,12 C15,13.1 14.1,14 13,14 L3,14 C1.89,14 1,13.1 1,12 L1,4 C1,2.89 1.89,2 3,2 L13,2 Z M10,3 L6,3 L6,13 L10,13 L10,3 Z M13,3 L11,3 L11,13 L13,13 C13.55,13 14,12.55 14,12 L14,12 L14,4 C14,3.44 13.55,3 13,3 L13,3 Z M5,3 L3,3 C2.44,3 2,3.44 2,4 L2,4 L2,12 C2,12.55 2.44,13 3,13 L3,13 L5,13 L5,3 Z" id="kanban" fill="#595959"></path>
+    </g>
+</svg>

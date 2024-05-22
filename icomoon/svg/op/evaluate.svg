@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>evaluate</title>
+    <g id="evaluate" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M16,1 L16,13 L11,13 L8.5547002,14.6301999 C8.21880078,14.8541328 7.78119922,14.8541328 7.4452998,14.6301999 L5,13 L0,13 L0,1 L16,1 Z M14,3 L2,3 L2,11 L5.60555128,11 L8,12.596 L10.3944487,11 L14,11 L14,3 Z M11,6 L11,8 L5,8 L5,6 L11,6 Z" id="形状结合" fill="#575D6C"></path>
+    </g>
+</svg>

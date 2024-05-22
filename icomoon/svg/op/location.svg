@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>定位</title>
+    <g id="定位" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8,2 C10.209139,2 12,3.790861 12,6 C12,7.47275933 10.6666667,9.87275933 8,13.2 C5.33333333,9.87275933 4,7.47275933 4,6 C4,3.790861 5.790861,2 8,2 Z M8,4.4 C7.1163444,4.4 6.4,5.1163444 6.4,6 C6.4,6.8836556 7.1163444,7.6 8,7.6 C8.8836556,7.6 9.6,6.8836556 9.6,6 C9.6,5.1163444 8.8836556,4.4 8,4.4 Z" id="合并形状" fill="#71757F"></path>
+    </g>
+</svg>

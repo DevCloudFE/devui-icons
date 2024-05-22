@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>操作/sort</title>
-    <desc>Created with Sketch.</desc>
-    <g id="操作/sort" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M4,6 L7,10 L5,9.999 L5,15 L3,15 L3,9.999 L1,10 L4,6 Z M15,12 L15,14 L9,14 L9,12 L15,12 Z M15,7 L15,9 L9,9 L9,7 L15,7 Z M15,2 L15,4 L1,4 L1,2 L15,2 Z" id="Shape" fill="#293040" fill-rule="nonzero"></path>
+<svg width="14px" height="13px" viewBox="0 0 14 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>sort_up</title>
+    <g id="按事项查看" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Shape" transform="translate(-1.000000, -2.000000)" fill="#575D6C">
+            <path d="M4,6 L7,10 L5,9.999 L5,15 L3,15 L3,9.999 L1,10 L4,6 Z M15,12 L15,14 L9,14 L9,12 L15,12 Z M15,7 L15,9 L9,9 L9,7 L15,7 Z M15,2 L15,4 L1,4 L1,2 L15,2 Z"></path>
+        </g>
     </g>
 </svg>

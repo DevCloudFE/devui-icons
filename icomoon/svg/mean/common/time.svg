@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>time</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="图标" transform="translate(-1247.000000, -2062.000000)">
-            <g id="time" transform="translate(1247.000000, 2062.000000)">
-                <path d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,15 C11.8659932,15 15,11.8659932 15,8 C15,4.13400675 11.8659932,1 8,1 C4.13400675,1 1,4.13400675 1,8 C1,11.8659932 4.13400675,15 8,15 Z M8.5,8.5 L12,8.5 L12,9.5 L7.5,9.5 L7.5,4 L8.5,4 L8.5,8.5 Z" id="Combined-Shape" fill="#293040"></path>
+    <title>function icon/time</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="API-starter-图标入库" transform="translate(-292.000000, -824.000000)">
+            <g id="方格备份-21" transform="translate(260.000000, 800.000000)">
+                <text id="图标" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" line-spacing="16" fill="#71757F">
+                    <tspan x="27.136" y="61">时间</tspan>
+                </text>
             </g>
+            <path d="M300,825 C303.865993,825 307,828.134007 307,832 C307,835.865993 303.865993,839 300,839 C296.134007,839 293,835.865993 293,832 C293,828.134007 296.134007,825 300,825 Z M300,826 C296.686292,826 294,828.686292 294,832 C294,835.313708 296.686292,838 300,838 C303.313708,838 306,835.313708 306,832 C306,828.686292 303.313708,826 300,826 Z M300,827 C300.24546,827 300.449608,827.176875 300.491944,827.410124 L300.5,827.5 L300.5,831.5 L303.5,831.5 C303.776142,831.5 304,831.723858 304,832 C304,832.24546 303.823125,832.449608 303.589876,832.491944 L303.5,832.5 L300,832.5 C299.723858,832.5 299.5,832.276142 299.5,832 L299.5,827.5 C299.5,827.223858 299.723858,827 300,827 Z" id="形状结合" fill="#71757F" fill-rule="nonzero"></path>
         </g>
     </g>
 </svg>

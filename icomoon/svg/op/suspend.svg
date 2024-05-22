@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>暂停</title>
-    <desc>Created with Sketch.</desc>
-    <g id="暂停" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g>
-            <path d="M4,3 L6,3 L6,13 L4,13 L4,3 Z M10,3 L12,3 L12,13 L10,13 L10,3 Z" id="合并形状" fill="#293040" fill-rule="nonzero"></path>
-        </g>
+    <title>suspend</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M4.7,1 C5.08659932,1 5.4,1.31340068 5.4,1.7 L5.4,14.3 C5.4,14.6865993 5.08659932,15 4.7,15 C4.31340068,15 4,14.6865993 4,14.3 L4,1.7 C4,1.31340068 4.31340068,1 4.7,1 Z M11.7,1 C12.0865993,1 12.4,1.31340068 12.4,1.7 L12.4,14.3 C12.4,14.6865993 12.0865993,15 11.7,15 C11.3134007,15 11,14.6865993 11,14.3 L11,1.7 C11,1.31340068 11.3134007,1 11.7,1 Z" id="suspend" fill="#191919" fill-rule="nonzero"></path>
     </g>
 </svg>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>知识库</title>
+    <g id="知识库" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M16,0 L16,16 L0,16 L0,0 L16,0 Z M4.00000002,2.00000002 L2.00000002,2.00000002 L2.00000002,14 L4.00000002,14 L4.00000002,2.00000002 Z M14,2.00000002 L12,2 L12,7.00000001 L10.5,6.00000001 L9.00000001,7.00000001 L9,2 L6,2.00000002 L6,14 L14,14 L14,2.00000002 Z" id="形状结合" fill="#575D6C"></path>
+    </g>
+</svg>

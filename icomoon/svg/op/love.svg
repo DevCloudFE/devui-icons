@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
     <title>操作/收藏</title>
     <desc>Created with Sketch.</desc>
     <g id="操作/收藏" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M8,14.88 L7.02,13.9 C3.38,10.68 1,8.51 1,5.85 C1,3.68 2.68,2 4.85,2 C6.04,2 7.23,2.56 8,3.47 C8.77,2.56 9.96,2 11.15,2 C13.32,2 15,3.68 15,5.85 C15,8.51 12.62,10.68 8.98,13.9 L8,14.88 Z" id="&lt;颜色&gt;Shape" fill="#ADB0B8" fill-rule="nonzero"></path>
+        <path d="M8,15 L6.95,13.9347826 C3.05,10.4347826 0.5,8.07608696 0.5,5.18478261 C0.5,2.82608696 2.3,1 4.625,1 C5.9,1 7.175,1.60869565 8,2.59782609 C8.825,1.60869565 10.1,1 11.375,1 C13.7,1 15.5,2.82608696 15.5,5.18478261 C15.5,8.07608696 12.95,10.4347826 9.05,13.9347826 L8,15 Z" id="&lt;颜色&gt;Shape" fill="#575D6C" fill-rule="nonzero"></path>
     </g>
 </svg>
